@@ -1,0 +1,138 @@
+.content-for-body-top{
+  width: 80vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-top: 125px;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 25px;
+}
+.content-for-body-continued{
+  width: 80vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 25px;
+
+}
+.content-section1-image{
+  display: inline-flex;
+  justify-content: space-around;
+  height: 500px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid white;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 50%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.overlay-image {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.content-section1-header{
+  color: grey;
+  font-size: 10vh;
+  font-family: 'Crushed', cursive;
+  display: inline-flex;
+  float: right;
+  border-bottom: 2px solid grey;
+  margin-bottom: 10px;
+}
+.content-section1-body{
+  color: lightgrey;
+  font-size: 3vh;
+  font-family: 'Comfortaa', cursive;
+  display: inline-flex;
+  float: right;
+  width: 60vw;
+}
+.content-section2-languages{
+  height: 500px;
+  width: 250px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 10px;
+}
+.language{
+  height: 62px;
+  width: 240px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 44px;
+  font-family: 'Crushed', cursive;
+  color: grey;
+}
+.html{
+  background-color: #FCE855;
+}
+.css{
+  background-color: #C0D72F;
+}
+.ruby{
+  background-color: #FC9931;
+}
+.rails{
+  background-color: #F32C43;
+}
+.javascript{
+  background-color: #731E8E;
+}
+.reactjs{
+  background-color: #C31E6D;
+}
+.links{
+  display: inline-flex;
+  float: right;
+
+}
+.logoz{
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+}
+.nycda-logo{
+  width: 400px;
+}
+.content-section2-header{
+  color: grey;
+  font-size: 12vh;
+  font-family: 'Crushed', cursive;
+  display: inline-flex;
+  float: left;
+}
+.content-section2-body{
+  color: lightgrey;
+  font-size: 4vh;
+  font-family: 'Comfortaa', cursive;
+  display: inline-flex;
+  float: left;
+  width: 60vw;
+}
