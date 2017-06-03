@@ -4,19 +4,18 @@
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 auto;
   margin-top: 125px;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid grey;
   padding-bottom: 25px;
 }
-.content-for-body-continued{
+.content-for-body-2{
   width: 80vw;
   height: 60vh;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 auto;
   margin-top: 75px;
-  margin-bottom: 100px;
-  border-bottom: 2px solid lightgrey;
+  margin-bottom: 150px;
+  border-bottom: 2px solid grey;
   padding-bottom: 25px;
-
 }
 .content-section1-image{
   display: inline-flex;
@@ -30,11 +29,12 @@
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 22px;
   right: 0;
+  top: 300px;
   overflow: hidden;
   width: 0;
-  height: 50%;
+  height: 100%;
   transition: .5s ease;
 }
 
@@ -43,6 +43,7 @@
 }
 
 .overlay-image {
+  border: 5px solid white;
   white-space: nowrap;
   color: white;
   font-size: 20px;
@@ -69,6 +70,19 @@
   display: inline-flex;
   float: right;
   width: 60vw;
+}
+.links{
+  display: inline-flex;
+  float: right;
+
+}
+.logoz{
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+}
+.nycda-logo{
+  width: 400px;
 }
 .content-section2-languages{
   height: 500px;
@@ -108,31 +122,48 @@
 .reactjs{
   background-color: #C31E6D;
 }
-.links{
-  display: inline-flex;
-  float: right;
-
-}
-.logoz{
-  height: 200px;
-  width: 200px;
-  margin-left: 25px;
-}
-.nycda-logo{
-  width: 400px;
-}
 .content-section2-header{
   color: grey;
   font-size: 12vh;
   font-family: 'Crushed', cursive;
   display: inline-flex;
   float: left;
+  border-bottom: 2px solid grey;
 }
 .content-section2-body{
+  margin-top: 20px;
   color: lightgrey;
   font-size: 4vh;
   font-family: 'Comfortaa', cursive;
   display: inline-flex;
   float: left;
+  width: 60vw;
+}
+.content-for-body-3{
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.saltShaker{
+  position: absolute;
+}
+.content-section3-header{
+  color: grey;
+  font-size: 8vh;
+  font-family: 'Crushed', cursive;
+  display: inline-flex;
+}
+.content-section3-body{
+  margin-top: 20px;
+  color: lightgrey;
+  font-size: 4vh;
+  font-family: 'Comfortaa', cursive;
+  display: inline-flex;
   width: 60vw;
 }

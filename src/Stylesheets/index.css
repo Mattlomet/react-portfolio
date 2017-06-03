@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 background: linear-gradient(177deg, #ffffff, #ccf4ff, #9be7fc, #ccf4ff, #ffffff);
-background-size: 1000% 1000%;
+background-size: 2000% 2000%;
 
 -webkit-animation: AnimationName 30s ease infinite;
 -moz-animation: AnimationName 30s ease infinite;
