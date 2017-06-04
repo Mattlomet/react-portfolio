@@ -1,0 +1,28 @@
+.content-for-body-3{
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.saltShaker{
+  position: absolute;
+}
+.content-section3-header{
+  color: grey;
+  font-size: 8vh;
+  font-family: 'Crushed', cursive;
+  display: inline-flex;
+}
+.content-section3-body{
+  margin-top: 20px;
+  color: lightgrey;
+  font-size: 4vh;
+  font-family: 'Comfortaa', cursive;
+  display: inline-flex;
+  width: 60vw;
+}

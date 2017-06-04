@@ -4,7 +4,9 @@ import nycdaLogo from "../nycda.svg";
 import linkedIn from "../linked-in.png";
 import gitHub from "../github.png";
 import saltShaker from "../saltshaker.png";
-import "../Stylesheets/Content.css";
+import "../Stylesheets/Content1.css";
+import "../Stylesheets/Content2.css";
+import "../Stylesheets/Content3.css";
 
 function Content() {
   return (
