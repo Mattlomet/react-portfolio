@@ -1,76 +1,102 @@
 .content-for-body-top{
   width: 80vw;
-  height: 60vh;
+  height: 27vw;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 auto;
-  margin-top: 125px;
   border-bottom: 2px solid grey;
-  padding-bottom: 25px;
+  padding-bottom: 1.5vw;
 }
 .content-section1-image{
   display: inline-flex;
   justify-content: space-around;
-  height: 500px;
+  height: 25vw;
   float: left;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 1vw;
+  margin-left: 1vw;
   border: 3px solid white;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 22px;
-  right: 0;
-  top: 300px;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  width: 100%;
-}
-
-.overlay-image {
-  border: 5px solid white;
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.content-section1-header{
+.content-section-header{
   color: grey;
-  font-size: 10vh;
+  font-size: 5vw;
   font-family: 'Crushed', cursive;
   display: inline-flex;
   float: right;
+  margin-right: 1vw;
   border-bottom: 2px solid grey;
-  margin-bottom: 10px;
+  margin-bottom: .5vw;
 }
 .content-section1-body{
   color: lightgrey;
-  font-size: 3vh;
+  font-size: 2vw;
   font-family: 'Comfortaa', cursive;
   display: inline-flex;
   float: right;
   width: 60vw;
+  margin-bottom: 4vw;
 }
 .links{
   display: inline-flex;
   float: right;
-
 }
 .logoz{
-  height: 200px;
-  width: 200px;
-  margin-left: 25px;
+    margin-top: 5vw;
+  height: 10vw;
+  width: 10vw;
+  margin-left: 2.5vw;
+  margin-right: 5vw;
 }
 .nycda-logo{
-  width: 400px;
+  width: 20vw;
+}
+.arrowdown{
+    margin-left: 44vw;
+}
+.arrow{
+    height: 10vw;
+    width: 10vw;
+}
+
+.content-section2{
+    width: 20vw;
+}
+.content-for-body-second{
+    width: 95vw;
+    height: 60vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+    margin-top: 8vw;
+    margin-bottom: 1vw;
+    border-bottom: 2px solid grey;
+    padding-bottom: 1.5vw;
+}
+.content-section2-body{
+  color: lightgrey;
+  font-size: 2vw;
+  font-family: 'Comfortaa', cursive;
+
+}
+.content-section2-body a{
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 2vw;
+  font-family: 'Comfortaa', cursive;
+}
+.carbonpicture{
+    height: 22vw;
+    width: 22vw;
+    margin: .5vw;
+}
+.paperboypicture{
+    height: 22vw;
+    width: 22vw;
+    margin: 1vw;
+}
+.content-section2-header{
+  color: grey;
+  font-size: 5vw;
+  font-family: 'Crushed', cursive;
+  display: inline-flex;
+  margin-right: 1vw;
+  border-bottom: 2px solid grey;
+  margin-bottom: .5vw;
 }
