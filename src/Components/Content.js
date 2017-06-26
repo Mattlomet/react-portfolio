@@ -77,11 +77,14 @@ function Content() {
                     <div className="carbonprint">
                         <div className="content-section2-body">
                             <a
-                                href="https://carbonprint.github.io/enviroprint/"
+                                href="https://mattlomet.github.io/enviroprint/"
                                 target="_blank"
                             >
                                 CarbonPrint
                             </a>
+                        </div>
+                        <div className="content-section2-descrip">
+                            A Carbon FootPrint Calculator
                         </div>
                         <img className="carbonpicture" src={carbonsignin} />
                         <img className="carbonpicture" src={carbonprintmenu} />
@@ -99,6 +102,9 @@ function Content() {
                             >
                                 PaperBoy
                             </a>
+                        </div>
+                        <div className="content-section2-descrip">
+                            News Aggreate Website
                         </div>
                         <img className="paperboypicture" src={signinpaperboy} />
                         <img className="paperboypicture" src={newsselector} />

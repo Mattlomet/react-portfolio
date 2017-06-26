@@ -61,7 +61,7 @@
 }
 .content-for-body-second{
     width: 95vw;
-    height: 60vw;
+    height: 250vw;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 auto;
     margin-top: 8vw;
@@ -73,23 +73,47 @@
   color: lightgrey;
   font-size: 2vw;
   font-family: 'Comfortaa', cursive;
-
+}
+.content-section2-descrip{
+    color: lightgrey;
+    font-size: 2vw;
+    font-family: 'Comfortaa', cursive;
+    display: block;
+    margin-bottom: 1vw;
 }
 .content-section2-body a{
   text-decoration: none;
   color: lightgrey;
-  font-size: 2vw;
+  font-size: 5vw;
   font-family: 'Comfortaa', cursive;
 }
+.carbonprint{
+    text-align: center;
+}
 .carbonpicture{
-    height: 22vw;
-    width: 22vw;
-    margin: .5vw;
+    height: 30vw;
+    width: 60vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition: all 1s;
+}
+.carbonpicture:hover{
+    height: 50vw;
+    width: 70vw;
+}
+.paperboy{
+    text-align: center;
 }
 .paperboypicture{
-    height: 22vw;
-    width: 22vw;
-    margin: 1vw;
+    height: 30vw;
+    width: 60vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition: all 1s;
+}
+.paperboypicture:hover{
+    height: 50vw;
+    width: 70vw;
 }
 .content-section2-header{
   color: grey;
